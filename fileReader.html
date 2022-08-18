@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="fileReader.css">
+    <meta charset="utf-8" />
+    <title>Nathan App Dev</title>
+  </head>
+  <body>
+    <h3 id = "displayP"></h3>
+    <div class = "buttons">
+        <button onclick="myStop()">Stop</button>
+        <button id = 'start' onclick="myStart()">Start</button>
+        <div class="slidecontainer">
+          <h2>Speed</h2>
+          <span>0 wpm </span><input id = "myRange" type="range" min="0" max="900" value="200"><span>900 wpm</span>
+          <h2 id = "output" style="text-align: center;">200 wpm</h2>
+        </div>
+    </div>
+
+    <script src="fileReader.js"></script>
+   
+  </body>
+</html>
+
+   
+ 
